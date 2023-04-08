@@ -21,4 +21,5 @@ To get started:
 * Once finished installing **git** , use this [tutorial](https://stackoverflow.com/a/50527994) to set up your newly installed git bash default terminal in VScode.
 To use **ssh**:
 * Open a terminal in VScode (Ctrl + ` or Command + `)
-* Type in: ssh (username)
+* Type in: ssh (username) 
+![Image](LR1_1.png)
