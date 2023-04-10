@@ -1,5 +1,8 @@
+CSE15L Lab Report 1
+===================
+
 Part 1: CSE15L Account
-======================
+---
 Use this [link](https://sdacs.ucsd.edu/~icc/index.php) to access your specific CSE15L account:  
  * Use your UCSD username (e.g. xxx000) and PID (e.g. A12345678) to login  
  * Your CSE15L account username should start with "cs15l..."
@@ -9,7 +12,7 @@ For help on resetting your password, use this [tutorial](https://drive.google.co
 ![Image](LR1_8.png)
   
 Part 2: Visual Studio Code
-==========================
+---
 Visual Studio Code is the coding platform we will be using.  
 *(Skip this step if VScode is already downloaded on your computer or if you're using the lab's computer)*  
 Go to [Visual Studio Code](https://code.visualstudio.com/) and follow the instructions to download it onto your computer.  
@@ -17,15 +20,13 @@ When finished installing, you should open up a window that is similar to this:
 ![Image](LR1_9.png)
 
 Part 3: Remotely Connecting
-===========================
-To get started:
----------------
+---
+**To get started:**
 * For Windows: install [Git for Windows](https://gitforwindows.org/) for the useful tools we need.  
 * Once finished installing **git** , use this [tutorial](https://stackoverflow.com/a/50527994) to set up your newly installed git bash default terminal in VScode.  
 * For macOS: **git** is already preinstalled so you can skip this section.  
   
-To use **ssh**:
----------------
+**To use ssh**:
 * Open a terminal in VScode  
 ![Image](LR1_2.png)
 * Type in: ssh (CSE15L username)@ieng6.ucsd.edu  
@@ -40,7 +41,7 @@ To use **ssh**:
 Now your terminal is remotely connected. Commands run by you will run onto a connected computer elsewhere.
 
 Part 4: Running Commands
-========================
+---
 There are many commands you can run on both your computer and the remote computer:
 * **cd** (used to change directory)
 * **ls** (used to list files and folders in a given path)
@@ -57,7 +58,7 @@ Also, you can use more commands like **cat** in your terminal.
 ![Image](LR1_7.png)  
 
 Part 5: How to log out
-======================
+---
 After completing your work on VScode, it is important to log out of the remote server in your terminal.  
 To log out, you can use either:
 * Ctrl-D
