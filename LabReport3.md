@@ -3,7 +3,7 @@
 ## Command: find
   
 ## 1.) -name  
-Source: https://adamtheautomator.com/bash-find/ 
+Source: [Link](https://adamtheautomator.com/bash-find/)
 ### Example 1:
 Command:  
 ```
@@ -39,7 +39,7 @@ technical/biomed/ar387.txt
 ```
 Explanation: The use of the command **-name** in this example helped find all files in technical that starts with ar3 and is a .txt file. It is very useful for filtering out unnecessary files.
 ## 2.) -type d and -type f
-Source: https://adamtheautomator.com/bash-find/ 
+Source: [Link](https://adamtheautomator.com/bash-find/)
 ### Example 1:
 Command:
 ```
@@ -172,7 +172,7 @@ technical/plos/journal.pbio.0030137.txt
 ```
 Explanation: The use of the command **-type f** in this example finds all the file types of technical/plos that starts with journal. This is useful for sorting out the files from other types such as directory.
 ## 3.) -printf
-Source: https://adamtheautomator.com/bash-find/
+Source: [Link](https://adamtheautomator.com/bash-find/)
 ### Example 1:
 Command:
 ```
@@ -492,7 +492,7 @@ technical/plos/pmed.0020281.txt Thu Apr 27 16:08:34.4945378000 2023
 ```
 Explanation:The use of **-printf "%p %s \n"** in this example create directives or “formatters” that define how the search result will look. The **%p** returns the file's exact name, the **%t** returns the file’s last modification time, and the **\n** creates a new line for the next file. This is useful for seeing certain information for files in technical.
 ## 4.) -exec
-Source: https://adamtheautomator.com/bash-find/
+Source: [Link](https://adamtheautomator.com/bash-find/)
 ### Example 1:
 Command:
 ```
@@ -502,7 +502,7 @@ Output:
 ```
 rm: remove regular file 'technical/plos/pmed.0020281.txt'?
 ```
-Explanation: The use of the command **-exec rm -i {} \;** in this example removed the file pmed.0020281.txt. This feature is very useful for deleting certain files you know the names of them.
+Explanation: The use of the command **-exec rm -i {} \;** in this example removed the file pmed.0020281.txt. This feature is very useful for deleting certain files if you know the names of them. It is also different from a regular rm as it will asks for user confirmation before deleting each file. This ensures that you avoid accidentally removing files, especially when dealing with multiple files.
 ### Example 2:
 Command:
 ```
