@@ -528,4 +528,4 @@ Output:
 ~
 [No Name] [unix] (15:59 31/12/1969)                                                                           
 ```
-Explanation: The use of the command **-exec vi -i {} \;** opens up the file in a text editor called vi. This is very useful for if you want to edit a file or view it on a different screen.
+Explanation: The use of the command **-exec vi -i {} \;** opens up the file in a text editor called vim. This is very useful for if you want to edit a file or view it on a different screen. This also allows you to edit a code file without having to open it up on a new workspace.
